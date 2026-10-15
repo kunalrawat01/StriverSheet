@@ -11,7 +11,7 @@ public class CountNumberOfDigitsInANumber {
             }
             n/=10;
         }
-        System.out.println(count);
+        System.out.println("Odd digit In a Number = "+count);
         sc.close();
     }
 }
