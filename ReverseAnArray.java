@@ -9,8 +9,14 @@ public class ReverseAnArray {
         for(int i=0;i<n;i++){
             arr[i] = sc.nextInt();
         }
+        for(int i=0;i<n/2;i++){
+              int temp = arr[i];
+              arr[i] = arr[n-1-i];
+              arr[n-1-i] = temp;
+        }
+        System.out.print("Reversed array is = ");
         for(int i=0;i<n;i++){
-            System.out.print("Reversed Array is = "+arr[i]);
+            System.out.print(arr[i]+" ");
         }
         sc.close();
     }
