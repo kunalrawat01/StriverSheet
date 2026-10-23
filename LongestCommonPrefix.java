@@ -10,7 +10,7 @@ public class LongestCommonPrefix {
             str[i] = sc.next();
         }
         if(n==0){
-            System.out.println("Longest Common Prefix");
+            System.out.println("No Prefix");
             sc.close();
             return;
         }
