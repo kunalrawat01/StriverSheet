@@ -16,5 +16,6 @@ public class RotateString {
                 System.out.println("Rotation = "+false);
             }
         }
+        sc.close();
     }
 }
