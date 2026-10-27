@@ -23,6 +23,7 @@ public class UnionOfTwoSortedArray {
             for(int i=0;i<m;i++){
                     set.add(arr2[i]);
             }
+            System.out.println("Union Of Two Sorted Array is = ");
             for(int num : set){
             System.out.print(num+" ");
             }
