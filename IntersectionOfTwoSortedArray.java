@@ -22,6 +22,7 @@ public class IntersectionOfTwoSortedArray {
             if(arr1[i] == arr2[j]){
                 System.out.println(arr1[i]);
                 i++;
+                j++;
             }else if(arr1[i]<arr2[j]){
                     i++;
             }else{
