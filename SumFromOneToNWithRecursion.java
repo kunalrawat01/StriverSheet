@@ -10,7 +10,7 @@ public class SumFromOneToNWithRecursion {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
         int n = sc.nextInt();
-        System.out.println(sum(n));
+        System.out.println("Sum from One to N = "+sum(n));
         sc.close();
     }
 }
