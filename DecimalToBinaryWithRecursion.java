@@ -4,7 +4,7 @@ public class DecimalToBinaryWithRecursion {
         if(n==0){
             return;
         }
-        DecimalToBinary(n/10);
+        DecimalToBinary(n/10);  
         System.out.print(n%2);
     }
     public static void main(String[] args) {
